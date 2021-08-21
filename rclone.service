@@ -7,6 +7,6 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/usr/bin/gclone mount gc: /home/thinhnd/GC/  --allow-other --dir-cache-time 96h --vfs-cache-max-age 48h --vfs-cache-mode writes --vfs-read-chunk-size 128M --poll-interval 2m --vfs-read-chunk-size-limit 50G --vfs-cache-max-size off --buffer-size 100M
+ExecStart=/usr/bin/gclone mount gc: /media/GC/  --allow-other --dir-cache-time 96h --vfs-cache-max-age 48h --vfs-cache-mode writes --vfs-read-chunk-size 128M --poll-interval 2m --vfs-read-chunk-size-limit 50G --vfs-cache-max-size off --buffer-size 100M
 [Install]
 WantedBy=multi-user.target
