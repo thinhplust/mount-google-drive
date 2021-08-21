@@ -7,6 +7,6 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/usr/bin/gclone mount gc1: /home/thinhnd/GC1/ --allow-other --allow-non-empty --vfs-cache-max-age 675h --vfs-read-chunk-size 128M --vfs-read-chunk-size-limit 512M --max-read-ahead 1024k --attr-timeout 1s --buffer-size 1G
+ExecStart=/usr/bin/gclone mount gc1: /media/GC1/ --allow-other --allow-non-empty --vfs-cache-max-age 675h --vfs-read-chunk-size 128M --vfs-read-chunk-size-limit 512M --max-read-ahead 1024k --attr-timeout 1s --buffer-size 1G
 [Install]
 WantedBy=multi-user.target
