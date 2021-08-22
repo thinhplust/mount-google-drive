@@ -16,4 +16,6 @@ mv rclone1.service /etc/systemd/system/
 chmod a+x /etc/systemd/system/rclone.service
 mkdir /media/GC
 mkdir /media/GC1
+cd
+rm -rf mount-google-drive
 reboot
