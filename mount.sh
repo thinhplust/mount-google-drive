@@ -1,4 +1,5 @@
 #!/bin/bash
+apt install curl
 echo "-----> Install gclone"
 wget https://dl.dropboxusercontent.com/s/py5datuvmrhj3a8/gclone
 mv gclone /usr/bin/
