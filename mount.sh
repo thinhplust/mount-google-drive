@@ -17,4 +17,7 @@ chmod a+x /etc/systemd/system/rclone.service
 mkdir /media/GC
 mkdir /media/GC1
 cd
-rm -rf mount-google-drive
+systemctl start rclone
+systemctl start rclone1
+systemctl enable rclone
+systemctl enable rclone1
