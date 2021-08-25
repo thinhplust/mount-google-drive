@@ -18,4 +18,3 @@ mkdir /media/GC
 mkdir /media/GC1
 cd
 rm -rf mount-google-drive
-reboot
